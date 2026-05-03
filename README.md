@@ -15,7 +15,11 @@ It uses ratatui for the interface and zbus to talk to NetworkManager.
 ### Running it
 You need to have NetworkManager running on your system for this to work. also you need Nerd Fonts in your terminal if you want the icons to look right.
 
-Just do:
+First clone the repo:
+```bash
+git clone https://github.com/BeetleBot/tuinm.git
+cd tuinm
 cargo run
+```
 
 I probably wont be updating this much unless i need a new feature myself but feel free to check it out.
