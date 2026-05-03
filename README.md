@@ -1,6 +1,8 @@
 # tuinm
 
-This is just a simple NetworkManager TUI i made in Rust because i wanted something that looks a bit better than the default nmtui. It is mostly for my own use but i figured i would put it here on GitHub if anyone else wants to use it or find it helpful for their linux setup.
+This is just a simple NetworkManager TUI i made in Rust because i always felt nmtui looked a bit ugly and dated. I really liked how the impala tool looks for iwd, so i decided to build something similar but specifically for NetworkManager instead.
+
+It is mostly for my own use but i figured i would put it here on GitHub if anyone else wants to use it or find it helpful for their linux setup.
 
 It uses ratatui for the interface and zbus to talk to NetworkManager.
 
